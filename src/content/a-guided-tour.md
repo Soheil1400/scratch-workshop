@@ -1,87 +1,87 @@
 ---
-title: 'A Guided Tour'
+title: 'یک تور راهنما'
 ---
 
-## Taking a look at what's on screen.
+## نگاهی به صفحه نمایش
 
-Let's start by taking a look at what's on the screen and then we'll explore each area independently.
+بیایید با نگاه کردن به صفحه نمایش شروع کنیم و سپس هر بخش را به طور مستقل بررسی کنیم.
 
 ![The Scratch UI](/images/scratch-ui.png)
 
-- **Green Flag**: This starts your code.
-- **Red Stop Sign**: This stops everything.
-- **The Canvas**: This is where you get to see your code run.
-  - **Sprites**: These are all of the things in your project. You can code each one individually. If things are not working as you expect, make sure you're actually adding code to the thing you're intending on adding it to.
-  - **Stage and Backdrops**: This is the background image. You can switch between different backgrounds with code based on stuff that happens in your game.
-    - When you click on a backdrop, you can also add code to that backdrop as well.
-- **The Editor**
-  - **Code**: This is where you add your functionality to determine what should happen. You can add code to a sprite or a backdrop.
-  - **Costumes**: You can customize how a given things looks or design your own things.
-  - **Sounds**: You can record your own sounds or pull in sounds from the gallery.
-- **Backpack**: This can be used for storing stuff that you want to use across different projects.
-- **The Menu**: For the most part, this is where you're going to do stuff like saving and making copies of stuff. You can also download and upload code.
-  - **File**: This is where you save and load stuff.
-  - **Turbo Mode**: You can turn this on if you're doing something really intense and you need extra performance. You can usually leave this off.
+- **پرچم سبز**: این کد شما را شروع می‌کند.
+- **علامت ایست قرمز**: این همه چیز را متوقف می‌کند.
+- **بوم**: اینجا جایی است که کد شما اجرا می‌شود.
+  - **اسپریت‌ها**: اینها تمام چیزهایی هستند که در پروژه شما هستند. می‌توانید هر کدام را به صورت جداگانه کد نویسی کنید. اگر چیزها به درستی کار نمی‌کنند، مطمئن شوید که واقعاً در حال افزودن کد به چیزی هستید که قصد دارید به آن اضافه کنید.
+  - **صحنه و پس‌زمینه‌ها**: این تصویر پس‌زمینه است. می‌توانید با استفاده از کد بین پس‌زمینه‌های مختلف بر اساس اتفاقات در بازی خود جابجا شوید.
+    - وقتی روی یک پس‌زمینه کلیک می‌کنید، می‌توانید به آن پس‌زمینه هم کد اضافه کنید.
+- **ویرایشگر**
+  - **کد**: اینجا جایی است که شما عملکردی را اضافه می‌کنید تا تعیین کنید چه باید اتفاق بیفتد. می‌توانید به یک اسپریت یا یک پس‌زمینه کد اضافه کنید.
+  - **لباس‌ها**: می‌توانید ظاهر یک چیز خاص را سفارشی کنید یا چیزهای خودتان را طراحی کنید.
+  - **صداها**: می‌توانید صدای خود را ضبط کنید یا صداها را از گالری انتخاب کنید.
+- **کوله‌پشتی**: این می‌تواند برای ذخیره چیزهایی که می‌خواهید در پروژه‌های مختلف استفاده کنید، استفاده شود.
+- **منو**: برای بیشتر کارها، اینجا جایی است که شما چیزهایی مانند ذخیره و ایجاد نسخه‌های مختلف را انجام می‌دهید. همچنین می‌توانید کد را دانلود و آپلود کنید.
+  - **فایل**: اینجا جایی است که شما چیزها را ذخیره و بارگذاری می‌کنید.
+  - **حالت توربو**: می‌توانید این را روشن کنید اگر کاری خیلی سنگین انجام می‌دهید و به عملکرد بیشتری نیاز دارید. معمولاً می‌توانید این را خاموش بگذارید.
 
-## Backdrops
+## پس‌زمینه‌ها
 
 ![Adding a Backdrop](/images/adding-a-backdrop.png)
 
-If that white background is not exciting enough for you, you can select another one that makes you happier.
+اگر آن پس‌زمینه سفید برای شما هیجان‌انگیز نیست، می‌توانید یک پس‌زمینه دیگر را انتخاب کنید که شما را خوشحال‌تر کند.
 
-## Sprites
+## اسپریت‌ها
 
-### Hiding and Showing
+### پنهان و نشان دادن
 
-- You can also show and hide a given sprite depending on if it should be in the game at that moment.
-- You can also control this with code.
+- می‌توانید یک اسپریت خاص را بسته به اینکه آیا باید در بازی در آن لحظه باشد یا نه، نشان داده یا پنهان کنید.
+- می‌توانید این را با کد کنترل کنید.
 
-### Direction
+### جهت
 
-**Direction** keeps track of which way your character is facing.
+**جهت** تعیین می‌کند که شخصیت شما به کدام سمت رو به رو است.
 
-- That first option with the circular arrow will rotate your sprite as you adjust the direction.
-- That middle one is super cool. It will allow you to flip the sprite to face the other way.
+- آن گزینه اول با پیکان دایره‌ای اسپریت شما را هنگام تنظیم جهت می‌چرخاند.
+- آن گزینه وسطی خیلی جالب است. این به شما اجازه می‌دهد اسپریت را به سمت دیگر بچرخانید.
 
 ![Changing the Sprite's Direction](/images/sprite-direction.png)
 
-### Adding Another Sprite
+### افزودن اسپریت دیگر
 
-You can add additional sprites to your game as well. For most games, you're almost definitely going to have more than one sprite. In fact, you will probably choose to use sprites for things like blocks, walls, and the ground—depending on the game.
+می‌توانید اسپریت‌های اضافی به بازی خود اضافه کنید. برای بیشتر بازی‌ها، تقریباً قطعاً بیش از یک اسپریت خواهید داشت. در واقع، احتمالاً تصمیم می‌گیرید از اسپریت‌ها برای چیزهایی مانند بلوک‌ها، دیوارها، و زمین استفاده کنید - بسته به بازی.
 
 ![Adding a Sprite](/images/adding-a-sprite.png)
 
-- You can search Scratch's collection of sprites.
-  - If you pick "Surprise Me" then Scratch will pick a random sprite from its collection.
-- You can draw your own.
-- You can upload a sprite from your computer.
+- می‌توانید از مجموعه اسپریت‌های Scratch جستجو کنید.
+  - اگر "من را شگفت‌زده کن" را انتخاب کنید، Scratch یک اسپریت تصادفی از مجموعه خود انتخاب خواهد کرد.
+- می‌توانید خودتان نقاشی کنید.
+- می‌توانید یک اسپریت را از کامپیوتر خود آپلود کنید.
 
-### Costumes
+### لباس‌ها
 
-Each sprite can have more than one costume. A lot of times, this isn't as fancy as it sounds. Let's take a look at the costumes that come with Arnold, our cat.
+هر اسپریت می‌تواند بیش از یک لباس داشته باشد. بیشتر مواقع، این به آن اندازه که به نظر می‌رسد، شیک نیست. بیایید نگاهی به لباس‌هایی که با آرنولد، گربه ما، ارائه می‌شوند، بیندازیم.
 
 ![Sprite Costumes](/images/costumes.png)
 
-There are two costumes, but they don't look very different. But, if you flip back and forth between them quickly enough, you'll probably figure out why they exist.
+دو لباس وجود دارد، اما آنها خیلی متفاوت به نظر نمی‌رسند. اما اگر به سرعت بین آنها جابجا شوید، احتمالاً دلیل وجود آنها را متوجه خواهید شد.
 
-## Code
+## کد
 
-This is where the magic happens and you can add all sorts of interesting functionality to your game. Without the code editor, I guess Scratch would just be a drawing tool, which is cool too.
+اینجا جایی است که جادو اتفاق می‌افتد و می‌توانید تمام انواع عملکردهای جالب را به بازی خود اضافه کنید. بدون ویرایشگر کد، فکر می‌کنم Scratch فقط یک ابزار طراحی خواهد بود، که آن هم خوب است.
 
-In Scratch, you write code by snapping together little blocks of functionality—kind of like LEGOS.
+در Scratch، شما با قرار دادن بلوک‌های کوچکی از عملکرد مانند لگو، کد می‌نویسید.
 
-### Block Categories
+### دسته‌بندی بلوک‌ها
 
-The blocks are divided into the following categories:
+بلوک‌ها به دسته‌های زیر تقسیم می‌شوند:
 
-- **Motion**: this is useful for making sprites move. You can't use any of these with backdrops.
-- **Looks**: These are little chunks of code for changing something about how your sprite looks, unsurprisingly.
-- **Sound**: We don't use these unless we have headphones on.
-- **Events**: Okay, so this is like one of the most important areas. These are all of the things that could happen. Typically, you'll say something like "When that happens, I want to do this." This will be what kicks it off. The simplest possible version of this could be "When then project starts… do this!"
-- **Control**: These are a bunch of helpful blocks for controlling how your code works.
-- **Sensing**: It makes sense to assume that if you have more than one sprite, they might want to know something about each other. For example, if Pac-Man is touching a ghost, something should happen, right?
-- **Operators**: These are useful for doing stuff like math or figuring out if something is true or not. For example, does the player have enough points to win? Did they just lose their last life?
-- **Variables**: This is where you store the number of points the player has or how many lives they have left.
-- **My Blocks**: This is for when you get lazy and you find yourself doing the same thing over and over. You can make a block of reusable code and just use that.
+- **حرکت**: این برای حرکت دادن اسپریت‌ها مفید است. نمی‌توانید هیچ کدام از اینها را با پس‌زمینه‌ها استفاده کنید.
+- **ظاهر**: اینها قطعات کوچکی از کد هستند برای تغییر چیزی در مورد ظاهر اسپریت شما، که تعجب‌آور نیست.
+- **صدا**: ما از اینها استفاده نمی‌کنیم مگر اینکه هدفون داشته باشیم.
+- **رویدادها**: خب، این یکی از مهم‌ترین بخش‌هاست. اینها همه چیزهایی هستند که می‌توانند اتفاق بیفتند. معمولاً شما می‌گویید چیزی مانند "وقتی این اتفاق می‌افتد، می‌خواهم این کار را انجام دهم." این چیزی است که آن را آغاز می‌کند. ساده‌ترین نسخه ممکن از این می‌تواند "وقتی پروژه شروع می‌شود... این کار را انجام بده!"
+- **کنترل**: اینها یک دسته از بلوک‌های مفید برای کنترل نحوه عملکرد کد شما هستند.
+- **حس کردن**: منطقی است که فرض کنیم اگر بیش از یک اسپریت دارید، آنها ممکن است بخواهند چیزی در مورد یکدیگر بدانند. برای مثال، اگر Pac-Man به یک روح برخورد کند، باید اتفاقی بیفتد، درست است؟
+- **عملگرها**: اینها برای انجام کارهایی مانند ریاضی یا فهمیدن اینکه چیزی درست است یا نه، مفید هستند. برای مثال، آیا بازیکن به اندازه کافی امتیاز دارد که برنده شود؟ آیا به تازگی آخرین زندگی خود را از دست داده است؟
+- **متغیرها**: اینجا جایی است که شما تعداد امتیازات بازیکن یا چند زندگی باقی مانده او را ذخیره می‌کنید.
+- **بلوک‌های من**: این برای زمانی است که شما تنبل شده‌اید و می‌بینید که خود را بارها و بارها انجام می‌دهید. می‌توانید یک بلوک از کد قابل استفاده مجدد بسازید و فقط از آن استفاده کنید.
 
-Let's talk a little bit about [The Coordinate Grid](the-coordinate-grid).
+بیایید کمی درباره [شبکه مختصات](the-coordinate-grid) صحبت کنیم.
